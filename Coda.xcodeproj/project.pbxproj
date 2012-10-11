@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032182DE1626F3A900ABEDD7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 032182DD1626F3A900ABEDD7 /* Settings.bundle */; };
 		48882ACC1626EDCC000CDDA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48882ACB1626EDCC000CDDA7 /* UIKit.framework */; };
 		48882ACE1626EDCC000CDDA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48882ACD1626EDCC000CDDA7 /* Foundation.framework */; };
 		48882AD01626EDCC000CDDA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48882ACF1626EDCC000CDDA7 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		032182DD1626F3A900ABEDD7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		48882AC71626EDCC000CDDA7 /* Coda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48882ACB1626EDCC000CDDA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		48882ACD1626EDCC000CDDA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +105,7 @@
 				48882ADD1626EDCC000CDDA7 /* Default.png */,
 				48882ADF1626EDCD000CDDA7 /* Default@2x.png */,
 				48882AE11626EDCD000CDDA7 /* Default-568h@2x.png */,
+				032182DD1626F3A900ABEDD7 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				48882AE01626EDCD000CDDA7 /* Default@2x.png in Resources */,
 				48882AE21626EDCD000CDDA7 /* Default-568h@2x.png in Resources */,
 				48882AE51626EDCD000CDDA7 /* MainStoryboard.storyboard in Resources */,
+				032182DE1626F3A900ABEDD7 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				48882AED1626EDCD000CDDA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
